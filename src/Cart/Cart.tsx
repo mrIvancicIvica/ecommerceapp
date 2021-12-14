@@ -21,7 +21,7 @@ const Cart: FC<Props> = ({ cartItems, addToCart, removeFromCart }) => {
     <div style={{ marginBottom: "60px" }}>
       <h2>Your Cart</h2>
       {cartItems.length === 0 ? (
-        <p>Moja kartica koja je ovdje je prazna jako je prazna!</p>
+        <p>Card s empty!</p>
       ) : null}
       {cartItems.map((item) => (
         <CartItem

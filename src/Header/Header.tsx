@@ -33,7 +33,7 @@ const Header = () => {
         open={cartContext?.cartOpen}
         onClose={() => cartContext?.setCartOpen(false)}
       >
-        <h1>Sara je moja kraljica</h1>
+        <h1>Card</h1>
         <Cart
           removeFromCart={cartContext?.handleRemoveFromCart}
           addToCart={cartContext?.handleAddToCart}
